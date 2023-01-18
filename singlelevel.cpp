@@ -18,7 +18,7 @@ class Base
             cout<<"Inside base fun\n";
         }
 };
-class Derived : public Base
+class Derived : public Base     // Derived is a class which derived from Base class
 {
     public:
         int i,j;
@@ -39,6 +39,12 @@ class Derived : public Base
 int main()
 {
     Derived dobj;
+
+    cout<<sizeof(Base)<<"\n";       // 8
+    cout<<sizeof(Derived)<<"\n";    // 16
+
+    dobj.fun();
+    dobj.gun();
 
     return 0;
 }

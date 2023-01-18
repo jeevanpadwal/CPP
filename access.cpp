@@ -37,11 +37,11 @@ int main()
     Demo obj;
 
     cout<<obj.x<<"\n";      // ALLOWED
-//    cout<<obj.y<<"\n";   // NOT ALLOWED
-//    cout<<obj.i<<"\n";  // NOT ALLOWED
+//    cout<<obj.y<<"\n";      // NOT ALLOWED
+//    cout<<obj.i<<"\n";      // NOT ALLOWED
 
-    obj.fun();           // ALLOWED
-//    obj.gun();              // NOT ALLOWED
+    obj.fun();                      // ALLOWED
+//    obj.gun();                      // NOT ALLOWED
 
     return 0;
 }

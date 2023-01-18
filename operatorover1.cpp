@@ -3,7 +3,7 @@ using namespace std;
 
 class Demo
 {
-    public:
+    public:     // private
         int x;
         int y;
 
@@ -12,6 +12,8 @@ class Demo
             x = i;
             y = j;
         }
+
+        friend Demo operator + (Demo op1, Demo op2);
 };
 
 Demo operator + (Demo op1, Demo op2)

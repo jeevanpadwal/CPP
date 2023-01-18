@@ -1,20 +1,8 @@
-#include <iostream>
-
-namespace 
-{
-    void fun()
-    {
-        std::cout<<"inside fun "<<"\n";
-    }
-}
-
+#include<iostream>
 
 int main()
 {
-   
-    std::cout << "Hello world!"<<"\n";
-    
-    fun();
-    
+    std::cout<<"Jay Ganesh\n";
+
     return 0;
 }

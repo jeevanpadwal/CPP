@@ -29,9 +29,7 @@ class Base2
         }
 };
 
-
-
-class Derived : public Base1, Base2
+class Derived : public Base1,  Base2
 {
     public:
         int a;

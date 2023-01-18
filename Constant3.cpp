@@ -13,22 +13,17 @@ class Demo
             // j = 20;
         }
 
-        Demo(int a, int b) :i(a), j(b)
+        Demo(int a, int b) : j(b)
         {
-            cout<<"Inside parametrised\n";
+            i = a;
         }
 };
 
 int main()
 {
    Demo obj(11,21);
-
    cout<<obj.i<<"\n";
    cout<<obj.j<<"\n";
-
-   obj.i++;
-    // obj.j++;
-   cout<<obj.i<<"\n";
 
     return 0;
 }

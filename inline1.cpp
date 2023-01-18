@@ -4,7 +4,7 @@ using namespace std;
 class Demo
 {
     public:
-        int Add(int no1, int no2)
+        inline int Add(int no1, int no2)
         {
             int ans = 0;
             ans = no1 + no2;
@@ -15,8 +15,6 @@ class Demo
 int main()
 {
     Demo obj;
-    cout<<sizeof(obj)<<"\n";        // 1
-
     int ret = 0;
 
     ret = obj.Add(10,11);
